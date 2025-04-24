@@ -3,6 +3,7 @@
     <string name="LOGO">logo Lion School</string>
     <string name="NOME">Lion School</string>
     <string name="course">Find your favorite course</string>
+    <string name="course2">Courses</string>
     <string name="destination">Get to your destination faster,
         study at the best vocational school in Brazil. Be the best version of yourself.</string>
     <string name="bottom">Get Started</string>
@@ -10,5 +11,24 @@
     <string name="instagram">instagram</string>
     <string name="twitter">twitter</string>
     <string name="facebook">facebook</string>
+    <string name="pes_course">Find your course</string>
+    <string name="pes_student">Find a student</string>
+    <string name="program_text">DS</string>
+    <string name="program_title">Desenvolvimento de Sistemas</string>
+    <string name="program_description">Learn to develop web and mobile applications</string>
+    <string name="seme">3 semesters</string>
+    <string name="eletro_text">ELE</string>
+    <string name="eletro_title">Eletroeletrônica</string>
+    <string name="eletro_description">Learn to design communication networks.</string>
+    <string name="red_text">RDS</string>
+    <string name="red_title">Redes de Computadores</string>
+    <string name="red_description">Learn to design communication networks.</string>
+    <string name="studentsList">Students List</string>
+    <string name="finish">Finalizado</string>
+    <string name="cours">Cursando</string>
+    <string name="all">Todos</string>
+    <string name="name1">Pedro da Silva Borges</string>
+    <string name="register1">20151001018</string>
+    <string name="year1">2022</string>
 
 </resources>

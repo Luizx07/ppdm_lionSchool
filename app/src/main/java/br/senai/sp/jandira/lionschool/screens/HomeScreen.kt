@@ -74,7 +74,7 @@ fun HomeScreen(){
                         ),
                         modifier = Modifier
                             .padding(top = 60.dp),
-                        color = Color.Blue,
+                        color = Color(0xFF3347B0),
                         fontSize = 45.sp,
                         fontWeight = FontWeight.Bold,
                     )
@@ -90,7 +90,7 @@ fun HomeScreen(){
                         text = stringResource(
                             R.string.course
                         ),
-                        color = Color.Blue,
+                        color = Color(0xFF3347B0),
                         fontSize = 22.sp,
                         fontWeight = FontWeight.Bold,
                     )
@@ -145,7 +145,7 @@ fun HomeScreen(){
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(40.dp)
-                                .height(50.dp),
+                                .height(60.dp),
                             horizontalArrangement = Arrangement.Center
                         ) {
                             Image(
