@@ -69,7 +69,6 @@ fun Students_ListScreen() {
                         text = stringResource(R.string.NOME),
                         fontSize = 15.sp,
                         color = Color(0xFF3347B0),
-                        fontWeight = FontWeight.Bold,
                         modifier = Modifier
                             .width(50.dp)
                             .padding(bottom = 10.dp)
@@ -92,7 +91,6 @@ fun Students_ListScreen() {
                         Text(
                             text = stringResource(R.string.program_text),
                             fontSize = 20.sp,
-                            fontWeight = FontWeight.Bold,
                             color = Color(0xFF3347B0),
                         )
                     }
@@ -156,7 +154,6 @@ fun Students_ListScreen() {
                             .padding(horizontal = 21.dp),
                         text = stringResource(R.string.all),
                         fontSize = 13.sp,
-                        fontWeight = FontWeight.Medium,
                         color = Color.White
                     )
                 }
@@ -183,7 +180,6 @@ fun Students_ListScreen() {
                             .padding(horizontal = 22.dp),
                         text = stringResource(R.string.cours),
                         fontSize = 13.sp,
-                        fontWeight = FontWeight.Medium,
                         color = Color(0xFF3347B0)
                     )
                 }
@@ -210,7 +206,6 @@ fun Students_ListScreen() {
                             .padding(horizontal = 23.dp),
                         text = stringResource(R.string.finish),
                         fontSize = 13.sp,
-                        fontWeight = FontWeight.Medium,
                         color = Color(0xFF3347B0)
                     )
                 }
@@ -236,7 +231,6 @@ fun Students_ListScreen() {
                     modifier = Modifier
                         .padding(start = 4.dp),
                     fontSize = 24.sp,
-                    fontWeight = FontWeight.Bold,
                     color = Color(0xFF3347B0)
                 )
             }
@@ -244,10 +238,11 @@ fun Students_ListScreen() {
         Column(
             modifier = Modifier
                 .fillMaxHeight()
-                .padding(start = 30.dp, bottom = 15.dp),
+                .padding(start = 38.dp, top = 275.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.SpaceEvenly
-        ){
+
+        ) {
             StudentsComponents(
                 imageUser = painterResource(id = R.drawable.user),
                 nameUser = stringResource(R.string.name1),
@@ -255,7 +250,42 @@ fun Students_ListScreen() {
                 year = stringResource(R.string.year1),
                 isFilled = true
             )
-            }
+            StudentsComponents(
+                imageUser = painterResource(id = R.drawable.user2),
+                nameUser = stringResource(R.string.name2),
+                register = stringResource(R.string.register1),
+                year = stringResource(R.string.year1),
+                isFilled = true
+            )
+            StudentsComponents(
+                imageUser = painterResource(id = R.drawable.user),
+                nameUser = stringResource(R.string.name1),
+                register = stringResource(R.string.register1),
+                year = stringResource(R.string.year1),
+                isFilled = true
+            )
+            StudentsComponents(
+                imageUser = painterResource(id = R.drawable.user2),
+                nameUser = stringResource(R.string.name2),
+                register = stringResource(R.string.register1),
+                year = stringResource(R.string.year1),
+                isFilled = true
+            )
+            StudentsComponents(
+                imageUser = painterResource(id = R.drawable.user),
+                nameUser = stringResource(R.string.name1),
+                register = stringResource(R.string.register1),
+                year = stringResource(R.string.year1),
+                isFilled = true
+            )
+            StudentsComponents(
+                imageUser = painterResource(id = R.drawable.user2),
+                nameUser = stringResource(R.string.name2),
+                register = stringResource(R.string.register1),
+                year = stringResource(R.string.year1),
+                isFilled = true
+            )
+        }
     }
 }
 

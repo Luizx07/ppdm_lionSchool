@@ -67,7 +67,6 @@ fun CourseScreen(){
                     text = stringResource(R.string.NOME),
                     fontSize = 15.sp,
                     color = Color(0xFF3347B0),
-                    fontWeight = FontWeight.Bold,
                     modifier = Modifier
                         .width(50.dp)
                         .padding(bottom = 10.dp)
@@ -117,7 +116,6 @@ fun CourseScreen(){
                 Text(
                     text = stringResource(R.string.course2),
                     fontSize = 24.sp,
-                    fontWeight = FontWeight.Bold,
                     color = Color(0xFF3347B0),
                     modifier = Modifier
                         .padding(horizontal = 5.dp)

@@ -76,7 +76,6 @@ fun HomeScreen(){
                             .padding(top = 60.dp),
                         color = Color(0xFF3347B0),
                         fontSize = 45.sp,
-                        fontWeight = FontWeight.Bold,
                     )
                 }
                 Column(
@@ -92,7 +91,6 @@ fun HomeScreen(){
                         ),
                         color = Color(0xFF3347B0),
                         fontSize = 22.sp,
-                        fontWeight = FontWeight.Bold,
                     )
                     Card(
                         shape = CircleShape,
@@ -113,7 +111,6 @@ fun HomeScreen(){
                             .padding(top = 40.dp, start = 10.dp, end = 10.dp),
                         color = Color(0xFF9E9FA4),
                         fontSize = 18.sp,
-                        fontWeight = FontWeight.Bold,
                         textAlign = TextAlign.Center
                     )
                     Column(
@@ -137,7 +134,6 @@ fun HomeScreen(){
                                 textAlign = TextAlign.Center,
                                 text = stringResource(R.string.bottom),
                                 color = Color.Black,
-                                fontWeight = FontWeight.Bold,
                                 fontSize = 20.sp
                             )
                         }
