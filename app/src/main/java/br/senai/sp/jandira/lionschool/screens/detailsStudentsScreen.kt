@@ -30,7 +30,7 @@ import androidx.compose.ui.unit.sp
 import br.senai.sp.jandira.lionschool.R
 
 @Composable
-fun detailsStudentsScreen (){
+fun detailsStudentsScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -73,7 +73,7 @@ fun detailsStudentsScreen (){
                 colors = CardDefaults.cardColors(
                     containerColor = Color(0xFFFFC23D),
                 )
-            ){}
+            ) {}
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier
@@ -84,7 +84,7 @@ fun detailsStudentsScreen (){
                         .width(150.dp)
                         .height(150.dp),
                     shape = RoundedCornerShape(100.dp),
-                    border = BorderStroke(5.dp, Color(0xFFFFC23D),)
+                    border = BorderStroke(5.dp, Color(0xFFFFC23D))
                 ) {
                     Image(
                         painter = painterResource(id = R.drawable.user2),
@@ -111,6 +111,12 @@ fun detailsStudentsScreen (){
                         .padding(top = 5.dp)
                 )
             }
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(425.dp)
+                    .padding(top = 20.dp)
+            ) { }
         }
     }
 }
